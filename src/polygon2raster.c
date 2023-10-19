@@ -1,4 +1,4 @@
-/* polygon2raster.c       2023-10-06 */
+/* polygon2raster.c       2023-10-17 */
 
 /* Copyright 2023 Emmanuel Paradis */
 
@@ -68,8 +68,9 @@ SEXP singlePolygon2raster(SEXP XY, SEXP PARS, SEXP raster)
     v = INTEGER(PARS)[3];
     z = INTEGER(raster);
 
-    /* try to allocate enough memory, maybe a better guess could be better... */
+    /* try to allocate enough memory, maybe a more accurate guess could be better... */
     intsct = (intersection*)R_alloc(1E6, sizeof(intersection));
+    memset(intsct, 0, 1E6 * sizeof(intersection));
 
     /* 1) Build the table of edges and intersections with horizontal lines
        h: the "highest" vertex (most north)
