@@ -1,7 +1,7 @@
-d30e42837f5da365e3cfde19cc5fd402 *DESCRIPTION
+8d9c76291b6530b992fcf85fb17db00e *DESCRIPTION
 cfca4d38469fc6160d69903cf1433bd4 *NAMESPACE
-7aac915eb592acc61df9629a40c98fc6 *NEWS
-2015cb1c6533b792bff84f651600fe85 *R/FUNs.R
+9f0dec0383b5182a172204ffb39f6174 *NEWS
+ee115336844df5989b6c341d86b98962 *R/FUNs.R
 58bc60627460f2a4dcee7ade824f37c9 *R/HausdorffDistance.R
 c556a2d824a737e4b5d70f8fcd4a8194 *R/RMA.R
 f6a5a8e616197307cdb18a5a110cf13b *R/convexPolygonOverlap.R
@@ -10,9 +10,10 @@ dc16626c9b1ab2d3bc6d36aeb76d4ae7 *R/polygon2raster.R
 70e7b850dc426a9dc49e447d58fa0309 *R/random_point_in_triangle.R
 50e12c3a35e0d874abe8a6f85c202c90 *R/triangulate.R
 1dff85c4b7d914311551283a3a446726 *R/trilinear2Cartesian.R
+47e73c07d631d645852fb1b0dc4809d3 *README.md
 ebbbb7e9d7f6eb778849930e023796d5 *man/HausdorffDistance.Rd
 41f40910525ea09927e098b83784f1bd *man/RMA.Rd
-fe5958cb9fa814394adbdee08e3e98a1 *man/area.Rd
+4b0d31b9cb02e8ee338db7a95f58d376 *man/area.Rd
 488d23111ed3a2a1e22ba055fb038515 *man/barycoords.Rd
 1dee47985437493fb294cecc96bafea1 *man/chullPolygon.Rd
 bdeccb8f3c4e9f96cfe11dbbc58e2b4f *man/convexPolygonOverlap.Rd
@@ -36,6 +37,6 @@ a2742edf6cda36b4d76715fc5622462e *man/trilinear2Cartesian.Rd
 8cd15f0d4b5001d6818cc867895a97c5 *src/meanvaluecoordinates.c
 5b7e89858c4945ce82586333ee5fa0f1 *src/polygon2raster.c
 7638a3d06e593aefd7df6e59c7b92802 *src/reverse_array.c
-cec1e197cc00396db3238a3d218f3cab *src/sim_polygons_landClasses.c
-d3726ade0da050afb021b374450e6392 *src/tigers.c
-67655f5ca28a6cff7ae7b0c922d95ec6 *src/tigers.h
+8e1777250041056d16d789856f83a3a7 *src/sim_polygons_landClasses.c
+8e6b0d07b522b1223400ea2d7745a9be *src/tigers.c
+fc673632be668567a38cc53dbf667601 *src/tigers.h
